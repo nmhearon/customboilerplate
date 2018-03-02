@@ -518,6 +518,83 @@ textarea {
   padding: 0.2em 0;
 }
 
+.icon-sprite, .icon-animation, .icon-bash, .icon-doggonauts, .icon-loveletter {
+  background-image: url('../img/icon-sdbb270efeb.png');
+  background-repeat: no-repeat;
+}
+
+.icon-animation {
+  background-position: 0 -256px;
+}
+.icon-animation:hover, .icon-animation.animation-hover {
+  background-position: 0 0;
+}
+
+.icon-bash {
+  background-position: 0 -768px;
+}
+.icon-bash:hover, .icon-bash.bash-hover {
+  background-position: 0 -512px;
+}
+
+.icon-doggonauts {
+  background-position: 0 -1280px;
+}
+.icon-doggonauts:hover, .icon-doggonauts.doggonauts-hover {
+  background-position: 0 -1024px;
+}
+
+.icon-loveletter {
+  background-position: 0 -1792px;
+}
+.icon-loveletter:hover, .icon-loveletter.loveletter-hover {
+  background-position: 0 -1536px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 256px;
+  height: 256px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #ffffff;
+  margin: 86.60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #ffffff;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #ffffff;
+}
+
 /*
  * Hide visually and from screen readers
  */
