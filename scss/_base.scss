@@ -1,6 +1,35 @@
 @import 'icon/*.png';
 @include all-icon-sprites;
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Lobster');
 
+html{
+  background-color: $backgroundcolor;
+}
+.container{
+  max-width: 960px;
+  background-color: white;
+  margin: 0 auto;
+  ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    li{
+      font-size: 1.5em;
+      font-family: 'Francois One', sans-serif;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+  }
+}
+h1{
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
 li {
   list-style:none;
   display: inline-block;
@@ -19,7 +48,11 @@ li {
       }//go
   }//icons
 }//li
-
+hr{
+  width: 90%;
+  height: 3px;
+  margin: auto;
+}
 .hexagon {
   position: relative;
   width: 300px; 
@@ -47,3 +80,4 @@ li {
   width: 0;
   border-top: 86.60px solid #ffffff;
 }
+// why...

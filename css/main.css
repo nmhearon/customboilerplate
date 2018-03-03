@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Francois+One|Lobster");
 html {
   line-height: 1.15;
   /* 1 */
@@ -551,6 +552,37 @@ textarea {
   background-position: 0 -1536px;
 }
 
+html {
+  background-color: #29305b;
+}
+
+.container {
+  max-width: 960px;
+  background-color: white;
+  margin: 0 auto;
+}
+.container ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.container ul li {
+  font-size: 1.5em;
+  font-family: 'Francois One', sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
 li {
   list-style: none;
   display: inline-block;
@@ -565,6 +597,12 @@ li a span {
   position: absolute;
   top: -9999em;
   left: -9999em;
+}
+
+hr {
+  width: 90%;
+  height: 3px;
+  margin: auto;
 }
 
 .hexagon {
