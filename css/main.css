@@ -562,12 +562,12 @@ textarea {
 html {
   background-image: url("../img/seattle_background.jpeg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: right top;
 }
 
 .container {
   max-width: 960px;
-  background-color: rgba(255, 255, 255, 0.01);
   margin: 0 auto;
 }
 .container ul {
@@ -576,20 +576,17 @@ html {
   justify-content: center;
 }
 .container ul li {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: 'Francois One', sans-serif;
   color: white;
+  text-shadow: 3px 3px #ff0000;
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-.container ul li div.text {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 2px;
-}
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   font-family: 'Lobster', cursive;
   color: white;
   margin-top: 30px;
@@ -624,6 +621,11 @@ footer {
   color: white;
   margin-top: 60px;
   text-align: center;
+  min-width: 100%;
+}
+
+.textbackground {
+  background-color: black;
 }
 
 .hexagon {
