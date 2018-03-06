@@ -519,8 +519,8 @@ textarea {
   padding: 0.2em 0;
 }
 
-.icon-sprite, .icon-animation, .icon-bash, .icon-doggonauts, .icon-loveletter {
-  background-image: url('../img/icon-sdbb270efeb.png');
+.icon-sprite, .icon-animation, .icon-bash, .icon-doggonauts, .icon-loveletter, .icon-spritesheet {
+  background-image: url('../img/icon-s038c780548.png');
   background-repeat: no-repeat;
 }
 
@@ -552,13 +552,22 @@ textarea {
   background-position: 0 -1536px;
 }
 
+.icon-spritesheet {
+  background-position: 0 -2304px;
+}
+.icon-spritesheet:hover, .icon-spritesheet.spritesheet-hover {
+  background-position: 0 -2048px;
+}
+
 html {
-  background-color: #29305b;
+  background-image: url("../img/seattle_background.jpeg");
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 .container {
   max-width: 960px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.01);
   margin: 0 auto;
 }
 .container ul {
@@ -569,14 +578,20 @@ html {
 .container ul li {
   font-size: 1.5em;
   font-family: 'Francois One', sans-serif;
+  color: white;
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+.container ul li div.text {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2px;
 }
 
 h1 {
   font-size: 2em;
   font-family: 'Lobster', cursive;
+  color: white;
   margin-top: 30px;
   display: flex;
   flex-flow: row;
@@ -603,6 +618,12 @@ hr {
   width: 90%;
   height: 3px;
   margin: auto;
+}
+
+footer {
+  color: white;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .hexagon {
