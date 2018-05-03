@@ -519,44 +519,65 @@ textarea {
   padding: 0.2em 0;
 }
 
-.icon-sprite, .icon-animation, .icon-bash, .icon-doggonauts, .icon-loveletter, .icon-spritesheet {
-  background-image: url('../img/icon-s038c780548.png');
+.icon-sprite, .icon-analytics, .icon-animation, .icon-bash, .icon-doggonauts, .icon-fauxcompany, .icon-loveletter, .icon-spritesheet, .icon-wordpress {
+  background-image: url('../img/icon-s97df58bf67.png');
   background-repeat: no-repeat;
 }
 
-.icon-animation {
-  background-position: 0 -256px;
+.icon-analytics {
+  background-position: 0 -250px;
 }
-.icon-animation:hover, .icon-animation.animation-hover {
+.icon-analytics:hover, .icon-analytics.analytics-hover {
   background-position: 0 0;
 }
 
+.icon-animation {
+  background-position: 0 -756px;
+}
+.icon-animation:hover, .icon-animation.animation-hover {
+  background-position: 0 -500px;
+}
+
 .icon-bash {
-  background-position: 0 -768px;
+  background-position: 0 -1268px;
 }
 .icon-bash:hover, .icon-bash.bash-hover {
-  background-position: 0 -512px;
+  background-position: 0 -1012px;
 }
 
 .icon-doggonauts {
-  background-position: 0 -1280px;
+  background-position: 0 -1780px;
 }
 .icon-doggonauts:hover, .icon-doggonauts.doggonauts-hover {
-  background-position: 0 -1024px;
+  background-position: 0 -1524px;
+}
+
+.icon-fauxcompany {
+  background-position: 0 -2292px;
+}
+.icon-fauxcompany:hover, .icon-fauxcompany.fauxcompany-hover {
+  background-position: 0 -2036px;
 }
 
 .icon-loveletter {
-  background-position: 0 -1792px;
+  background-position: 0 -2804px;
 }
 .icon-loveletter:hover, .icon-loveletter.loveletter-hover {
-  background-position: 0 -1536px;
+  background-position: 0 -2548px;
 }
 
 .icon-spritesheet {
-  background-position: 0 -2304px;
+  background-position: 0 -3316px;
 }
 .icon-spritesheet:hover, .icon-spritesheet.spritesheet-hover {
-  background-position: 0 -2048px;
+  background-position: 0 -3060px;
+}
+
+.icon-wordpress {
+  background-position: 0 -3828px;
+}
+.icon-wordpress:hover, .icon-wordpress.wordpress-hover {
+  background-position: 0 -3572px;
 }
 
 html {
